@@ -22,7 +22,7 @@ require([
 
   document.getElementById("btnAddLayer").onclick = () => {
     const statesLayer = new FeatureLayer({
-      url: "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_States_Generalized/FeatureServer/0"
+      url: "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_State_Boundaries/FeatureServer/0"
     });
     map.add(statesLayer);
   };
