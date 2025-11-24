@@ -11,7 +11,9 @@ header {
 }
 
 #map {
-  height: 90vh;
+  position: absolute;
+  top: 70px;
+  bottom: 0;
   width: 100%;
 }
 

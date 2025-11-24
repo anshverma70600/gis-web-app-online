@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Advanced Online GIS Web App</title>
+  <title>Advanced GIS Web App</title>
 
   <link rel="stylesheet" href="style.css">
 
@@ -15,30 +15,22 @@
 <body>
   <header>
     <h1>Advanced Online GIS Web App</h1>
-    <p>Powered by ArcGIS JavaScript API — 100% Online</p>
+    <p>100% Online, No Local System Needed</p>
   </header>
 
   <div id="map"></div>
 
   <div id="controls">
     <h3>GIS Tools</h3>
-
     <button id="btnAddLayer">Add USA States Layer</button>
-    <button id="btnSearch">Search State</button>
     <button id="btnDraw">Draw Tool</button>
-    <button id="btnMeasure">Measure</button>
-    <button id="btnBuffer">Create Buffer (5 km)</button>
-    <button id="btnUpload">Upload GeoJSON</button>
-    <button id="btnHeatmap">Add Heatmap</button>
-    <button id="btn3D">Switch to 3D View</button>
-    <button id="btnClear">Clear Everything</button>
+    <button id="btnClear">Clear</button>
 
     <h4>Basemap:</h4>
     <select id="basemapSelect">
       <option value="arcgis-topographic">Topographic</option>
       <option value="satellite">Satellite</option>
       <option value="osm">OpenStreetMap</option>
-      <option value="gray-vector">Gray</option>
     </select>
   </div>
 
