@@ -20,14 +20,11 @@ require([
     zoom: 4
   });
 
-  console.log("MapView Loaded!");
-
   document.getElementById("btnAddLayer").onclick = () => {
     const statesLayer = new FeatureLayer({
       url: "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_States_Generalized/FeatureServer/0"
     });
     map.add(statesLayer);
-    alert("USA States Layer Added!");
   };
 
   document.getElementById("btnDraw").onclick = () => {

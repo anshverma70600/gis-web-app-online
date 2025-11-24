@@ -12,14 +12,14 @@ header {
 
 #map {
   position: absolute;
-  top: 70px;
+  top: 80px; /* header space */
   bottom: 0;
   width: 100%;
 }
 
 #controls {
   position: absolute;
-  top: 100px;
+  top: 120px;
   left: 20px;
   padding: 15px;
   background: white;
